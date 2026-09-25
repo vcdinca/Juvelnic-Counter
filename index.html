@@ -50,7 +50,9 @@ var fish=[];
 var elapsed=0;
 var running=false;
 var startedAt=0;
-var timerInt=null;\nvar countdownInt=null;\nvar countdownEnd=0;
+var timerInt=null;
+var countdownInt=null;
+var countdownEnd=0;
 
 function loadData(){
  try{fish=JSON.parse(localStorage.getItem("juvelnicFish")||"[]");}catch(e){fish=[];}
